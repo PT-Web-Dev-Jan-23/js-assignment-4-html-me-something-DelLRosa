@@ -1,1 +1,71 @@
 /* Write your CSS here! */
+body{
+    display: block;
+    margin: 8px;
+    background-color: lightgoldenrodyellow;
+}
+img{
+    height: 300px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background-color: gold;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: goldenrod;
+}
+a:link{
+    color:black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+
+}
+a:hover{
+    background-color: darkgoldenrod;
+}
+h1{
+   font-family: fantasy;
+   font-size: 45px;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 36px;
+}
+article{
+    background-color: gold;
+    border:3px solid darkred;
+    border-radius: 5px;
+    margin: 30px 15px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+#mainHeading{
+    width: 50%;
+    background-image: url(./resources/wp2148241.jpg);
+    color:red;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: gold;    
+    padding-left: 7%;
+    margin: auto;
+}
+.image {
+    margin:auto;
+    padding: 15px 30px;
+}
+
+.funParagraph{
+    color: green;
+}
